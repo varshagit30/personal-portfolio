@@ -3,9 +3,9 @@ import skill2 from "../assets/img/skill2.svg";
 import skill3 from "../assets/img/skill3.png";
 import skill4 from "../assets/img/skill4.png";
 import skill5 from "../assets/img/skill5.svg";
+import skill6 from "../assets/img/skill6.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
 
 export const Skills = () => {
   const responsive = {
@@ -41,25 +41,29 @@ export const Skills = () => {
                 infinite={true}
                 className="owl-carousel owl-theme skill-slider"
               >
-               <div className="item">
+                <div className="item">
                   <img src={skill1} alt="Image" />
-                  <h5>Web Development</h5>
+                  <h5>Data Structures</h5>
                 </div>
                 <div className="item">
                   <img src={skill2} alt="Image" />
                   <h5>React.js</h5>
                 </div>
                 <div className="item">
-                  <img src={skill3} alt="Image" />
-                  <h5>Agile Development</h5>
+                  <img src={skill6} alt="Image" />
+                  <h5>JavaScript</h5>
                 </div>
                 <div className="item">
                   <img src={skill5} alt="Image" />
                   <h5>HTML/CSS</h5>
                 </div>
                 <div className="item">
+                  <img src={skill3} alt="Image" />
+                  <h5>Agile Development</h5>
+                </div>
+                <div className="item">
                   <img src={skill4} alt="Image" />
-                  <h5>Data Structures</h5>
+                  <h5>Web Development</h5>
                 </div>
               </Carousel>
             </div>

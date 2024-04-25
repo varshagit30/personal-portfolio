@@ -81,6 +81,7 @@ p.success {
 p.danger {
 	color: red;
 }
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -234,7 +235,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 140px 0 60px 0;
-  background-image: url('./assets/img/bg-blur.jpg');
+  /* background-image: url('./assets/img/bg-blur.jpg'); */
+  /* background-color: rgba(114, 49, 23, 0.5); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -305,10 +307,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background-image: url('./assets/img/bg-blur.jpg');
+  /* background-image: url('./assets/img/bg-blur.jpg'); */
 }
 .skill-bx {
-  background: #211b1b;
+  background: #292222;
   border-radius: 64px;
   text-align: center;
   padding: 50px 50px;
@@ -346,7 +348,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-image: url('./assets/img/bg-blur.jpg');
+  /* background-image: url('./assets/img/bg-blur.jpg'); */
 }
 .project h2 {
 	font-size: 45px;
@@ -448,7 +450,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 1;
 }
 .proj-txtx h4 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -456,7 +458,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx span {
   font-style: italic;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 10px;
   letter-spacing: 0.8px;
 }
 .background-image-right {
@@ -548,7 +550,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
+/* .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
@@ -607,7 +609,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
-}
+} */
 .footer img {
   width: 26%;
 }
